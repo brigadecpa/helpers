@@ -67,8 +67,8 @@ window.app = {
 if (queryParamsGetter.get("trafficBoxID")) window.app.urldata.trafficBoxID = queryParamsGetter.get("trafficBoxID")
 queryParamsGetter.forEach((v, k) => { window.app.allUrlParam[k] = v })
 
-console.log(window.app)
-console.log(window.preparam)
+// console.log(window.app)
+// console.log(window.preparam)
 
 function getIP_Data () {
 
