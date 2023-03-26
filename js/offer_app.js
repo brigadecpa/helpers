@@ -83,7 +83,7 @@ function getIP_Data () {
 
         window.app.ip_data = resp
         window.app.ip_data.country_name = regionNames.of(resp.country)
-        console.log({ resp })
+        // console.log({ resp })
         // countryCode = resp && resp.country ? resp.country : "";
         // getCounty(countryCode.toLowerCase());
         // $(".iti__flag_add").addClass("iti__" + resp.country.toLowerCase());
